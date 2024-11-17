@@ -1,0 +1,8 @@
+HiddenServiceDir /var/lib/tor/hidden_service/
+HiddenServicePort 80 127.0.0.1:80
+HiddenServicePort 443 127.0.0.1:443
+
+# Security settings
+SafeLogging 1
+StrictNodes 1
+MaxCircuitDirtiness 600
